@@ -37,8 +37,14 @@ echo $val_filter > $dev/filter  # RFilter. Valid range is 0 - 3.
 
 # LMU AS3676 Configuration
 dev=/sys/devices/i2c-0/0-0040/leds
-#Sensor on/off. 1 = on, reg 90h
-echo 0 > $dev/lcd-backlight/als/enable
+echo 0 > $dev/lcd-backlight/als/enable  #Sensor on/off. 1 = on, reg 90h
+echo 0 > $dev/button-backlight-rgb1/als/enable  #Sensor on/off. 1 = on, reg 90h
+echo 0 > $dev/button-backlight-rgb2/als/enable  #Sensor on/off. 1 = on, reg 90h
+echo 0 > $dev/button-backlight/als/enable
+echo 0 > $dev/keyboard-backlight/als/enable
+echo 0 > $dev/red/als/enable  #Sensor on/off. 1 = on, reg 90h
+echo 0 > $dev/green/als/enable  #Sensor on/off. 1 = on, reg 90h
+echo 0 > $dev/blue/als/enable  #Sensor on/off. 1 = on, reg 90h
 #[gain],[filter_up],[filter_down],[offset]
 echo 3,2,2,0 > $dev/lcd-backlight/als/params
 # touch-button-backlight
