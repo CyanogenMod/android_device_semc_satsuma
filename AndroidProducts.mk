@@ -26,4 +26,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_satsuma.mk
+    $(LOCAL_DIR)/full_satsuma.mk
