@@ -18,7 +18,8 @@ DEVICE_PACKAGE_OVERLAYS += device/semc/satsuma/overlay
 
 # These are the hardware-specific configuration files
 PRODUCT_COPY_FILES += \
-	device/semc/satsuma/prebuilt/media_profiles.xml:system/etc/media_profiles.xml
+    device/semc/satsuma/prebuilt/cyttsp_key.kl:system/usr/keylayout/cyttsp_key.kl \
+    device/semc/satsuma/prebuilt/media_profiles.xml:system/etc/media_profiles.xml
 
 # Init files
 PRODUCT_COPY_FILES += \
