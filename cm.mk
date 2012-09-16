@@ -11,7 +11,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 PRODUCT_RELEASE_NAME := ST17i
 
 #Set build fingerprint / ID / Product Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=ST17i BUILD_FINGERPRINT="SEMC/ST17i_1254-6360/ST17i:4.0.4/4.1.B.0.431/UL5_3w:user/release-keys" PRIVATE_BUILD_DESC="ST17i-user 4.0.4 4.1.B.0.431 UL5_3w test-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_BRAND="Sony Ericsson" PRODUCT_NAME="Xperia active" BUILD_FINGERPRINT="SEMC/ST17i_1254-6360/ST17i:4.0.4/4.1.B.0.431/UL5_3w:user/release-keys" PRIVATE_BUILD_DESC="ST17i-user 4.0.4 4.1.B.0.431 UL5_3w test-keys"
 
 TARGET_BOOTANIMATION_NAME := vertical-320x480
 
